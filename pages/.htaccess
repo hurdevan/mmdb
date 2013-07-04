@@ -1,0 +1,2 @@
+# Redirect everything in this directory to "good.html"   
+RewriteEngine off

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.hideMeButton
+	{
+	background-color:black;
+	color:white;
+	padding-left:10px;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+	}
+.hideMeCon
+	{
+	border:1px solid black;
+	padding:2px;
+	margin:2px;
+	}
+.hideMeContent
+	{
+	padding:4px;
+	}
+@media screen
+  {
+  p.test {font-family:verdana,sans-serif;font-size:14px;}
+  }
+@media print
+  {
+  .noPrint {display:none;}
+  }
+
+table { page-break-inside:auto;}
+tr    { page-break-inside:avoid; page-break-after:auto }
+thead { display:table-header-group;background-color:gray }
+tfoot { display:table-footer-group }
+tbody tr{border:1px solid #C9C9C9;}
+thead tr td{border:1px solid black;}

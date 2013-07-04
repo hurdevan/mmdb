@@ -1,5 +1,5 @@
 <?php	
-include "../SWAF/SWAF_3.0.php";
+include "SWAF_3.0.php";
 class c extends SWAF
 	{
 	public $serverPath = "/var/www/";
